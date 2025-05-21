@@ -2,14 +2,17 @@
     padding: 0;
     margin: 0;
 }
-main{
+.main{
     background-image: url("Assets/images/bg.jpg");
     height: 80vh;
+    position: relative;
 }
 
-main .box{
+.main .box{
     height: 80vh;
     width: 100%;
-    opacity: 0.4;
+    opacity: 0.44;
     background-color: black;
+    position: absolute;
+    top: 0;
 }
