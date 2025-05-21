@@ -1,0 +1,132 @@
+import HeroSection from "./Hero";
+
+const productList = [
+  // Top Trending Nike Shoes
+  {
+    id: 1,
+    brand: "Nike Air Force 1",
+    category: "Shoes",
+    price: "₹ 799.00",
+    img: "images/air-force1.jpg",
+    trending: true,
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+  {
+    id: 2,
+    brand: "Nike Air Max 270",
+    category: "Shoes",
+    price: "₹ 1,649.00",
+    img: "/images/air-max270.jpg",
+    trending: true,
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+  {
+    id: 3,
+    brand: "Nike Dunk Low",
+    category: "Shoes",
+    price: "₹ 3,499.00",
+    img: "/images/nike-dunk-low.jpg",
+    trending: true,
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+  {
+    id: 4,
+    brand: "Nike Reactx Infinity Run",
+    category: "Shoes",
+    price: "₹ 1,749.00",
+    img: "/images/nike-reactx-infinity-run.jpg",
+    trending: true,
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+
+  // Nike T-Shirts
+  {
+    id: 5,
+    brand: "Nike Sportswear T-Shirt",
+    category: "T-Shirts",
+    price: "₹ 1,407.00",
+    img: "/images/nike-mens-tshirt.jpg",
+    gender: "Men",
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+  {
+    id: 6,
+    brand: "Nike Essential Women's T-Shirt",
+    category: "T-Shirts",
+    price: "₹ 1,495.00",
+    img: "/images/nike-womens-tshirt.jpg",
+    gender: "Women",
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+
+  // Nike Trousers
+  {
+    id: 7,
+    brand: "Nike Dri-FIT Men's Training Pants",
+    category: "Trousers",
+    price: "₹ 1,699.00",
+    img: "/images/nike-mens-trousers.png",
+    gender: "Men",
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+  {
+    id: 8,
+    brand: "Nike Sportswear Women's Joggers",
+    category: "Trousers",
+    price: "₹ 2,295.00",
+    img: "/images/nike-womens-trousers.png",
+    gender: "Women",
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+
+  // Other Nike Products
+  {
+    id: 9,
+    brand: "Nike SB Club Skate Cap",
+    category: "Accessories",
+    price: "₹ 1,595.00",
+    img: "/images/nike-club-cap.jpg",
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+  {
+    id: 10,
+    brand: "Nike Elite Socks for Men",
+    category: "Accessories",
+    price: "₹ 499.00",
+    img: "/images/nike-basketball-socks.jpeg",
+    description: "1 Year Warranty.",
+    sponsored: false,
+    name: "Regular Product",
+  },
+  // Home HeroSection sponsered product id
+  // {
+  //   id: 11,
+  //   brand: "Nike Free RN FlyKnit Men",
+  //   category: "Shoes",
+  //   price: "₹ 2,449.00",
+  //   img: "/images/Nike-Free-RN-FlyKnit-Men.png",
+  //   description: "1 Year Warranty.",
+  //   sponsored: true,
+  //   name: "Sponsored Product",
+  // },
+];
+
+export default productList;
