@@ -89,8 +89,12 @@ nav button {
 
 .btn{
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 .btn-red{
@@ -99,6 +103,7 @@ color: white;
 padding: 3px 24px;
 font-size: 20px;
 border-radius: 4px;
+font-weight: 400;
 }
 
 .btn-red-sm{
@@ -116,7 +121,7 @@ border-radius: 4px;
 
 .main input{
     padding: 7px 101px 8px 14px;
-    font-weight: 900;
+    color: white;
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
