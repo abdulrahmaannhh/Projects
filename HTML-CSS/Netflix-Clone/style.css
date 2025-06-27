@@ -102,7 +102,11 @@ border-radius: 4px;
 }
 
 .main input{
-    
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+
 }
 
 .btn-red-sm{
