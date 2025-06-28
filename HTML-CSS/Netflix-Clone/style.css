@@ -166,3 +166,11 @@ section.first> div :first-child{
 section.first> div :nth-child(2){
   font-size: 24px;
 }
+
+.faqbox{
+  background-color: grey;
+  color: white;
+  display: flex;
+  background: black;
+  padding: 34px;
+}
