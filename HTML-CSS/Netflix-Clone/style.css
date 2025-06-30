@@ -280,6 +280,6 @@ footer .questions {
 
 footer-item {
   display: flex;
-  flex-direction: column;
   gap: 23px;
+  flex-direction: column
 }
