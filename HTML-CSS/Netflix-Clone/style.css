@@ -137,11 +137,19 @@ nav button {
   align-items: center;
 }
 
+@media screen and (max-width: 1300px) {
+body{
+  background-color: red;
+}
+
+}
+
 .secImg {
   position: relative;
 }
 
 .secImg img {
+  width: 555px;
   width: 30vw;
   position: relative;
   z-index: 10;
@@ -156,6 +164,7 @@ nav button {
 section.first > div {
   display: flex;
   flex-direction: column;
+  padding: 34px 0;
 }
 
 section.first > div :first-child {
@@ -170,7 +179,6 @@ section.first > div :nth-child(2) {
 .faq h2 {
   text-align: center;
   font-size: 48px;
-
 }
 
 .faq {
@@ -184,8 +192,8 @@ section.first > div :nth-child(2) {
   color: white;
 }
 
-.faqbox svg{
-filter: invert(1);
+.faqbox svg {
+  filter: invert(1);
 }
 
 .faqbox {
@@ -200,29 +208,29 @@ filter: invert(1);
   cursor: pointer;
 }
 
-footer{
+footer {
   color: white;
   max-width: 60vw;
   margin: auto;
   padding: 14px;
 }
 
-.footer a{
-font-size: 14px;
+.footer a {
+  font-size: 14px;
   color: white;
 }
 
-footer .questions{
+footer .questions {
   padding: 32px 0;
 }
 
-.footer{
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
 }
 
-footer-item{
+footer-item {
   display: flex;
   flex-direction: column;
   gap: 23px;
